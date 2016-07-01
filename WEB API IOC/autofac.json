@@ -1,0 +1,14 @@
+﻿{
+    "defaultAssembly": "Autofac.Example.Calculator",
+    "components": [
+        {
+            "type": "Domain.Service.User, Domain.Service",
+            "services": [
+                {
+                    "type": "Domain.Base.IUser"
+                }
+            ],
+            "injectProperties": true
+        }
+    ]
+}
